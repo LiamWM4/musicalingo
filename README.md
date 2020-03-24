@@ -1,2 +1,2 @@
 # musicalingo
-Website For A New Company.(Based in the UK)
+Just a starting point to see what my website will look like before i pay for a domain etc...
