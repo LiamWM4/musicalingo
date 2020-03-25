@@ -16,6 +16,4 @@ body{
 .navbar ul{
   display: inline-flex;
 }
-.navbar ul li{
-  list-style: none;
-}
+
