@@ -8,8 +8,8 @@ body{
 }
 .container img{
   margin: -7.5px;
-  height: 170px;
-  width: 1950px;
+  max-height: 170px; min-height: 100px;
+  max-width: 1950px; min-width: 100px;
 }
 
 .navbar ul li {
