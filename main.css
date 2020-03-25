@@ -8,9 +8,6 @@ body{
 }
 .navbar{
   background-color: lightskyblue;
-  height: 100px;
-  width: 100px;
-position: absolute top;
 }
 
 .navbar ul{
