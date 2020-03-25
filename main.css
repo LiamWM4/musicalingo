@@ -7,7 +7,9 @@ body{
   width: 100%;
 }
 .navbar ul li {
-  list-style-type: none;
+  font-size: medium;
+  list-style: none;
+  cursor: pointer;
 }
 
 .navbar{
