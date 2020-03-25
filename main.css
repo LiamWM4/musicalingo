@@ -1,8 +1,8 @@
 body{
-  background-color: #42455a;
+  background-color: white;
 }
 a:any-link {
-  color: green;
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -10,15 +10,14 @@ a:hover{
   color: red;
 }
 .container{
-  max-height: 100%;
+  max-height: 1080px;
   max-width: 100%;
-}
-.sidenav{
-  background-color: aquamarine;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .sidenav ul li {
-  font-family: sans-serif;
-  font-size: x-large;
+  font-family: Nunito Sans;
+  font-size: 25px;
   margin: 25px;
   margin-left: -10px;
   list-style: none;
@@ -28,27 +27,52 @@ a:hover{
 .sidenav:hover{
   color: red;
 }
-.sidenav img{
-  margin-left: 10%;
-  margin-top: -10%;
-  max-height: 80%;
-  max-width: 80%;
-}
+
 .sidenav { 
   height: 100%;
-  width: 8%; 
+  width: 15%; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: rgb(0, 252, 218); 
+  background-color: #42455a;
   overflow-x: hidden; 
   padding-top: 1%;
 }
+
 .header img{
   cursor: pointer;
-  margin-left: 7.6%;
+  margin-left: 19.5%;
   margin-top: -8px;
   max-height: 200px;
-  max-width: 1250px;
+  max-width: 1800px;
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+#logo{
+  max-height: 20%;
+}
+#home {
+  max-width: 10%;
+  max-height: 10%;
+}
+#question{
+  max-width: 10%;
+  max-height: 10%;
+}
+#contacts{
+  max-width: 10%;
+  max-height: 10%;
+}
+#location{
+  max-width: 10%;
+  max-height: 10%;
+}
+p{
+  text-align: right;
+  margin-top: 110%;
 }
