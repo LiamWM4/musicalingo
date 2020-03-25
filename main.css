@@ -1,9 +1,10 @@
 body{
   background-color: #42455a;
 }
+
 .container{
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 1360px;
+  max-width: 768px;
 }
 .sidenav{
   background-color: aquamarine;
