@@ -6,6 +6,10 @@ body{
   height: 100%;
   width: 100%;
 }
+.navbar ul li{
+  list-style: none;
+}
+
 .navbar{
   background-color: lightskyblue;
   position:fixed; top: 0; left: 0; width: 100%;
