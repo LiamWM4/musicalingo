@@ -1,23 +1,46 @@
 body{
   background-color: #42455a;
 }
-
 .container{
   max-height: 100%;
   max-width: 100%;
 }
-
-.navbar ul li {
+.sidenav{
+  background-color: aquamarine;
+}
+.sidenav ul li {
+  margin-left: -20px;
   font-family: sans-serif;
-  font-size: medium;
+  font-size: large;
   list-style: none;
   cursor: pointer;
-  color: aqua;
+  color:black;
+  margin-bottom: 20px;
 }
 
-.navbar .logo img{
+.sidenav a:hover {
+  background-color: red;
+}
+.sidenav .logo img{
+  margin-top: -25px;
   max-height: 100px;
   max-width: 100px;
+}
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: rgb(0, 252, 218); 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 .header img{
   cursor: pointer;
