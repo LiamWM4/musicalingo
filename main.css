@@ -15,3 +15,7 @@ body{
   margin: 0 20px;
   color: #bd17ff;
 }
+.navbar .logo{
+     height: 20px;
+     width: 20px;
+}
