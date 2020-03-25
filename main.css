@@ -1,40 +1,41 @@
 body{
   background-color: #42455a;
-  max-height: 100%;
-  max-width: 100%;
-  min-width: 1000px;
-  min-height: 1000px;
 }
-
+a:any-link {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover{
+  color: red;
+}
 .container{
   max-height: 100%;
   max-width: 100%;
-  min-width: 1000px;
- min-height: 1000px;
 }
 .sidenav{
   background-color: aquamarine;
 }
 .sidenav ul li {
-  margin-left: -20px;
   font-family: sans-serif;
-  font-size: large;
+  font-size: x-large;
+  margin: 25px;
+  margin-left: -10px;
   list-style: none;
   cursor: pointer;
   color:black;
-  margin-bottom: 20px;
 }
-
-.sidenav a:hover {
-  background-color: red;
+.sidenav:hover{
+  color: red;
 }
-.sidenav .logo img{
-  margin-top: -25px;
-  max-height: 100px;
-  max-width: 100px;
+.sidenav img{
+  margin-left: 10%;
+  margin-top: -10%;
+  max-height: 80%;
+  max-width: 80%;
 }
-.sidenav {
-  height: 100%; 
+.sidenav { 
+  height: 100%;
   width: 8%; 
   position: fixed; 
   z-index: 1; 
@@ -46,10 +47,8 @@ body{
 }
 .header img{
   cursor: pointer;
+  margin-left: 7.6%;
   margin-top: -8px;
   max-height: 200px;
   max-width: 1250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
