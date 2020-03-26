@@ -1,89 +1,69 @@
-body{
-  background-color: white;
-  height: 1500px;
-  width: 70%;
+*
+{
+  margin: 0;
+  padding: 0;
 }
 a:any-link {
   color: white;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: underline ;
 }
 a:hover{
   color: red;
 }
 .container{
-  max-height: 100%;
-  max-width: 100%;
-}
-.sidenav ul{
-  z-index: 4;
-  display: inline-flex;
-  margin-top: 37px;
-  float: right;
-}
-
-.sidenav ul li {
-  font-family: Nunito Sans;
-  z-index: 4;
-  font-size: 19px;
-  list-style: none;
-  cursor: pointer;
-  color:black;
-  margin-right: 40px;
-}
-.sidenav ul li img{
-  display: inline-flex;
-  float: left;
-  z-index: 4;
-  width: 30px;
-  height: 30px;
-  margin-top: -9px;
-  margin-right: 5px;
-}
-#location{
-  margin-right: 8px;
-  width: 27px;
-  height: 32px;
-}
-#about{
-  margin-right: 2px;
-  margin-top: -10px;
-}
-#contacts{
-  margin-right: 10px;
+  margin: 0;
+  padding: 0;
 }
 .sidenav { 
   overflow-y: hidden;
   overflow-x: hidden; 
   position: fixed;
   top: 0;
-  left: 0;
-  z-index: 4;
-  width: 100%;
-  height: 103px;
+  left: 300px;
+  width:  50%;
+  height: 100px;
   background-color: #42455a;
 }
+.sidenav ul{
+  float: right;
+  list-style: none;
+}
+.sidenav ul li{
+  margin: 15px;
+  margin-top: 40px;
+  float: left;
+  font-size: 22px;
 
-#header img{
-  cursor: pointer;
-  z-index: 3;
-  margin-left: 155px;
-  margin-top: 90px;
-  max-width: 120%;
 }
-h1{
-  text-align: center;
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  display: none;
+.sidenav ul li img{
+  float: left;
+  max-height: 30px;
+  max-width: 30px;
+  margin-top: -3px;
+  margin-right: 10px;
 }
- #logo{
-  display: inline-flex;
-  z-index: 4;
-  top: 0;
-  left: 0;
-  margin-left: 20px;
-  margin-top: 4px;
-  max-height: auto;
-  max-width: 5%;
-  min-width: 5%;
+#location{
+  margin-top: -7px;
+  max-width: 27px;
+  max-height: 35px;
 }
+#about{
+  margin-top: -5px;
+}
+#home{
+  margin-top: -5px;
+}
+#logo{
+ max-height: 10%;
+ max-width: 10%;
+ padding-top: 2px;
+ position: fixed;
+}
+@media screen and(min-width: 460px){
+  #logo {
+    display: none;
+  }
+}
+
+ 
