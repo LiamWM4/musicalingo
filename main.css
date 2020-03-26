@@ -42,6 +42,8 @@ a:hover{
 }
 #location{
   margin-right: 8px;
+  width: 27px;
+  height: 32px;
 }
 #about{
   margin-right: 2px;
