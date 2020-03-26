@@ -1,5 +1,7 @@
 body{
   background-color: white;
+  height: 1500px;
+  width: 70%;
 }
 a:any-link {
   color: white;
@@ -10,10 +12,8 @@ a:hover{
   color: red;
 }
 .container{
-  max-height: 1080px;
+  max-height: 100%;
   max-width: 100%;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 .sidenav ul li {
   font-family: Nunito Sans;
@@ -44,8 +44,8 @@ a:hover{
   cursor: pointer;
   margin-left: 19.5%;
   margin-top: -8px;
-  max-height: 200px;
-  max-width: 1800px;
+  max-height: auto;
+  max-width: 122%;
 }
 
 
@@ -54,25 +54,26 @@ h1{
   font-family: 'Arial Narrow', Arial, sans-serif;
 }
 #logo{
-  max-height: 20%;
+  max-height: auto;
+  max-width: 100%;
+  min-width: 10%;
 }
 #home {
-  max-width: 10%;
-  max-height: 10%;
+  max-width: 12%;
+  max-height: 12%;
 }
 #question{
-  max-width: 10%;
-  max-height: 10%;
+  max-width: 12%;
+  max-height: 12%;
 }
 #contacts{
-  max-width: 10%;
-  max-height: 10%;
+  max-width: 12%;
+  max-height: 12%;
 }
 #location{
-  max-width: 10%;
-  max-height: 10%;
+  max-width: 12%;
+  max-height: 12%;
 }
 p{
-  text-align: right;
-  margin-top: 110%;
+  text-align: bottom;
 }
