@@ -62,9 +62,11 @@ a:hover{
 @media screen and (max-width: 700px) {
  .sidenav ul li img{display: none;} 
 }
-@media screen and (max-width: 700px){
-  .sidenav{
-    max-width: 700px;
-  }
-}
+@media screen and (max-width: 700px) {
+  #logo{display: none;} 
+ }
+ @media screen and (max-width: 700px) {
+  .sidenav ul {float: left;} 
+ }
+ 
  
