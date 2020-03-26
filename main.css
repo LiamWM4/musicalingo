@@ -1,7 +1,7 @@
 body{
   background-color: white;
   height: 1500px;
-  width: 100%;
+  width: 70%;
 }
 a:any-link {
   color: white;
@@ -16,6 +16,7 @@ a:hover{
   max-width: 100%;
 }
 .sidenav ul{
+  z-index: 4;
   display: inline-flex;
   margin-top: 37px;
   float: right;
@@ -23,7 +24,8 @@ a:hover{
 
 .sidenav ul li {
   font-family: Nunito Sans;
-  font-size: 17px;
+  z-index: 4;
+  font-size: 19px;
   list-style: none;
   cursor: pointer;
   color:black;
@@ -32,13 +34,11 @@ a:hover{
 .sidenav ul li img{
   display: inline-flex;
   float: left;
-  max-width: 30px;
-  max-height: 30px;
+  z-index: 4;
+  width: 30px;
+  height: 30px;
   margin-top: -9px;
   margin-right: 5px;
-}
-.sidenav:hover{
-  color: red;
 }
 #location{
   margin-right: 8px;
@@ -56,24 +56,30 @@ a:hover{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 4;
   width: 100%;
-  height: 100px;
-  background-color:#42455a;
+  height: 103px;
+  background-color: #42455a;
 }
 
-.header img{
+#header img{
   cursor: pointer;
-  margin-left: 120px;
+  z-index: 3;
+  margin-left: 155px;
   margin-top: 90px;
-  max-width: 122%;
+  max-width: 120%;
 }
 h1{
   text-align: center;
   font-family: 'Arial Narrow', Arial, sans-serif;
+  display: none;
 }
-#logo{
+ #logo{
   display: inline-flex;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
   margin-top: 4px;
   max-height: auto;
   max-width: 5%;
