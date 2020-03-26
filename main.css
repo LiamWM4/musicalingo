@@ -42,13 +42,16 @@ a:hover{
 
 .header img{
   cursor: pointer;
-  margin-left: 19.5%;
+  margin-left: 19%;
   margin-top: -8px;
   max-height: auto;
   max-width: 122%;
 }
-
-
+@media screen and (width: 10px) {
+  img#header {
+    display: none;
+  }
+}
 h1{
   text-align: center;
   font-family: 'Arial Narrow', Arial, sans-serif;
